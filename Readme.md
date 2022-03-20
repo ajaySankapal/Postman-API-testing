@@ -61,6 +61,6 @@ update an existing order. Require authentication
 
 #### Delete
 
-Delete an existing order, Requires authentication
+Delete an existing order, Requires authentication.
 
-The request body needs to be empty
+The request body needs to be empty.
