@@ -28,3 +28,39 @@ In our communication between client and server we are using HTTP
 
 The upper part of the postman is "Request" section
 The lower part is about "Response"
+
+The response contains some Status code, Headers(Headers are meta information, additional information)
+
+we can save the requests in postman.
+we have to provide a collection in which we want to store the requests
+
+We can also state some query parameters also if the API allows
+
+key:value pair
+
+path variables
+
+##### Post Request
+
+With Post we send data
+
+with post request we have to supply a body
+
+To post something into the api we have to be authenticated
+
+To authenticate user we have been given a end point. In this case it is api-clients
+so by writing it with url/api-clients
+we have to add values in json format by going to body-->raw dropdown to json
+
+we can use postman console to debug the requests and responses
+
+##### Patch
+
+update something in the posted data
+update an existing order. Require authentication
+
+##### Delete
+
+Delete an existing order, Requires authentication
+
+The request body needs to be empty
