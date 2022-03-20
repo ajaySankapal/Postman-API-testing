@@ -40,7 +40,7 @@ key:value pair
 
 path variables
 
-##### Post Request
+#### Post Request
 
 With Post we send data
 
@@ -54,12 +54,12 @@ we have to add values in json format by going to body-->raw dropdown to json
 
 we can use postman console to debug the requests and responses
 
-##### Patch
+#### Patch
 
 update something in the posted data
 update an existing order. Require authentication
 
-##### Delete
+#### Delete
 
 Delete an existing order, Requires authentication
 
